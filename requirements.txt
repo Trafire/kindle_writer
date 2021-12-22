@@ -1,0 +1,2 @@
+-q git+https://github.com/huggingface/transformers.git
+google-cloud-storage
