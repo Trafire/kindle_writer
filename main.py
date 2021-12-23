@@ -26,7 +26,7 @@ while True:
         prompt = get_story(bucket_name, story_name)
 
         ## generate next portion of story
-        story = generate_story(model, tokenizer, prompt, 100)
+        story = generate_story(model, tokenizer, prompt, 1200)
         # save new text
         directory = f"kindle_books/stories/{story_name}/drafts/version {version}/"
         filename = str(uuid.uuid4()) + ".txt"
